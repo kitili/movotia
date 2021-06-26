@@ -21,32 +21,61 @@
 <body>
     <a href="index.html"> <button class="btn btn-outline-success me-2" type="button">home</button></a>
     <div class="type">
-        <h1>Types of Pizza</h1>
-        <h2 class="tour">bbq chicken</h2>
-        <div class="img1">
-            <img src="./images/BBQ-Chicken-Pizza-.jpg" width="500px" height="400px">
+
+        <div class="mourine" id="orders">
+            <h1>Order</h1>
+            <form class="text-center" id="text-center">
+                <label>pizza Flavor</label><br>
+                <select class="flavors" id="flavor" required><br>
+            <option label="chicken alfredo pizza" value="800">Chicken Alfredo Pizza</option>
+            <option label="Taco Quesadila Pizza" value="1200">Taco Quesadila Pizza</option>
+            <option label="Mushrooms" value="350">Mushrooms</option>
+            <option label="Macaroni And Cheese Pizza" value="700">Macaroni And Cheese Pizza</option>
+            <option label="Beef pizza" value="500">Beef pizza</option>
+            <option label="Sausage pizza" value="650">Sausage pizza</option>
+          </select><br>
+                <br><label>pizza Size</label><br>
+                <select class="sizes" id="size" required><br>
+      <option label="small" value="300">small</option>
+      <option label="Medium" value="600">Medium</option>
+      <option label="Large" value="1200">Large</option>
+    </select><br>
+                <br><label>pizza Crust</label><br>
+                <select class="crust" id="crust" required><br>
+      <option label="Thin Crust" value="150">Thin Crust</option>
+      <option label="Thick Crust" value="200">Thick Crust</option>
+      <option label="Deep Crust" value="380">Deep Crust</option>
+      <option label="Cheese Filled Crust" value="500">Cheese Filled Crust</option>
+      <option label="Stuffed Crust" value="345">Stuffed Crust</option>
+    </select><br>
+                <br><label>pizza Topping</label><br>
+                <select class="toppings" id="topping" required><br>
+      <option label="Pepperoni" value="100">Pepperoni</option>
+      <option label="Mushrooms" value="300">Mushrooms</option>
+      <option label="Onions" value="120">Onions</option>
+      <option label="Sausage" value="124">Sausage</option>
+      <option label="Green peppers" value="80">Green peppers</option>
+    </select><br>
+                <br><label>Number of pizza</label><br>
+                <input value="" required placeholder="number of pizza" id="quantity"></input><br>
+                <div class="button">
+                    <br><br><button type="submit" id="btn" label="">submit</button>
+                </div>
+            </form>
         </div>
-        <h2 class="tour">fruit</h2>
-        <div class=" sweetimg2">
-            <img src="./images/fruit.jpg" width=500px>
-        </div>
-        <h2 class="tour">veg Pizza</h2>
-        <div class="img3">
-            <img src="./images/movoti.jpg" width="500px">
-        </div>
-    </div>
 
 
-    <!-- JQuery -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="./js/script.js"></script>
+
+        <!-- JQuery -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="./js/script.js"></script>
 </body>
 
 </html>
