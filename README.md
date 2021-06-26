@@ -4,7 +4,7 @@ NOTHING BRINGS THE COMMUNITY TOGETHER LIKE A SWEET SLICE OF PIZZA.
 
 
 ## Description
-This website application enables a customer to order movoti pizza  online. So once you order from our wide variety of sizes,crusts,and toppings you will no the total amount you are supposed inclusive of the delivery amount in case you want it delivered.
+This website application enables a customer to order movotia pizza  online. So once you order from our wide variety of sizes,crusts,and toppings you will no the total amount you are supposed inclusive of the delivery amount in case you want it delivered.
 
 
  ## Author
