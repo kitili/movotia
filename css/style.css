@@ -17,7 +17,8 @@
     }
     
     .class {
-        margin-left: 40rem;
+        margin-left: 30rem;
+        font-size: 20px;
     }
     
     .tool {
@@ -112,4 +113,13 @@
         background-color: lavender;
         color: white;
         transform: rotateY(180deg);
+    }
+    
+    .looks {
+        color: yellow;
+        font-size: 50px;
+    }
+    
+    .bae {
+        color: royalblue;
     }
