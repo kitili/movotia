@@ -1,4 +1,10 @@
 body {
-    background-image: url(" ./images/pepperoni.jpg");
+    background-image: url("https://thumbs.dreamstime.com/b/pepperoni-pizza-hand-taking-slice-61831527.jpg");
     height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#orders {
+    background-color: transparent;
 }
