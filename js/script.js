@@ -31,24 +31,38 @@
 //                         event.preventDefault();
 //                     });
 //             });
-function getSizeCost() {
-    var selectedSize = document.getElementById("size").value;
-    return parseInt(selectedSize);
-    return parseInt(cheese);
+//         };
+
+function getSizeValue() {
+    var selectedValue = document.getElementById("size").value;
+    return parseInt(selectedValue);
 }
 
-function calctotalPrice() {
-    function calctotalPrice(e) {
-        event.preventDefault();
-        var totalPrice = (getSizeCost() + getCrustCost() + mushrooms()) * (getNumber());
+function getCrust() {
+    var selectedCrust = document.getElementById("crust").value;
+    return parseInt(selectedCrust);
+}
 
-        console.log(totalPrice);
-        alert("Your order of " + getNumber() + " pizzas has been processed.Your total amount payable is " + totalPrice + ".")
+function getToppings() {
+    var selectedToppings = document.getElementById("toppings").value;
+    return parseInt(selectedToppings);
+}
 
-    }
-    var location = $("input#location").val();
+function getflavour() {
+    var selectedflavour = document.getElementById("flavour").value;
+    return parseInt(selectedflavour);
+}
 
-    alert("Hello " + name + ". Your order has been successfuly received and will be delivered to " + location + " within one hour.The delivery will cost ksh 180/= Thank you for chosing the pizzeria.");
-    $(this).get(0).reset();
-    event.preventDefault();
+function getQuantity() {
+    var selectedQuantity = document.getElementById("quan").value;
+    return parseInt(selectedQuantity);
+}
+
+function getTotalAmount() {
+    var totalAmount = (getSizeValue() + getCrust() + getToppings()) * getQuantity();
+    alert("You have Ordered" + getQuantity("") + " pizza." + "" + " The Total Amount is kshs " + (totalAmount) + "" + " Thank you for your order welcome again.");
+    prompt("enter your location")
+    alert("You delivery fee is 150/=")
+    alert("You order will be delivered shortly")
+    alert("Continue shoppping with us each and every time .")
 }
