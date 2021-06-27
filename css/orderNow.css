@@ -6,5 +6,11 @@ body {
 }
 
 #orders {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-bottom: 30px;
+    padding-left: 6%;
+    height: 800px;
+    color: ivory;
 }

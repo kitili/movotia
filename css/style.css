@@ -68,6 +68,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        height: 500px;
     }
     
     .small {
@@ -116,7 +117,7 @@
     }
     
     .looks {
-        color: yellow;
+        color: black;
         font-size: 50px;
     }
     
@@ -135,4 +136,31 @@
     .tricky {
         margin-left: 20%;
         background-color: maroon;
+    }
+    
+    #footer {
+        background-color: rgb(179, 155, 155);
+        height: 250px;
+    }
+    
+    #footer i {
+        font-size: 30px;
+        margin-left: 8%;
+        color: white;
+    }
+    
+    #footer .col-md-12 p {
+        color: #ffffff;
+        font-style: italic;
+        margin-left: 48%;
+        margin-top: 6%;
+        font-size: 14px;
+    }
+    
+    #footer .col-md-12 span {
+        color: white;
+        font-style: italic;
+        margin-top: 20%;
+        font-size: 20px;
+        margin-left: 0%;
     }
