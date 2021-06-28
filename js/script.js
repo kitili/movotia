@@ -16,10 +16,10 @@ $(document).ready(function() {
 
             var userInput = new Order(flavor(), size(), crust(), topping(), number());
             var totalCost =
-                userInput.newSize +
-                userInput.newCrust +
-                userInput.newTopping +
-                userInput.newFlavor *
+                (userInput.newSize +
+                    userInput.newCrust +
+                    userInput.newTopping +
+                    userInput.newFlavor) *
                 userInput.newQuantity;
             alert("Your charges for Pizza" + totalCost);
             prompt("enter your email address");
