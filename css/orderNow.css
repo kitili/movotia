@@ -14,3 +14,18 @@ body {
     height: 800px;
     color: ivory;
 }
+
+#yes {
+    display: none;
+}
+
+#cards {
+    display: none;
+}
+
+#lit {
+    background-color: black;
+    padding: 5px;
+    color: white;
+    border: 4px solid black;
+}

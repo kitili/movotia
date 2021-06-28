@@ -20,47 +20,101 @@
 
 <body>
     <a href="index.html"> <button class="btn btn-outline-success me-2" type="button">Menu</button></a>
-    <div class="auto" id="text-center">
-        <div class="mourine" id="orders">
-            <form class="text-center" id="text-center">
-                <label>pizza Flavor</label><br>
-                <select class="flavors" id="flavor" required><br>
-            <option label="chicken Pizza-800" value="800">Chicken Pizza-800</option>
-            <option label="fruit Pizza-1200" value="1200">fruit Pizza-1200</option>
-            <option label="Mushrooms-350" value="350">Mushrooms-350</option>
-            <option label="Macaroni And Cheese Pizza-700" value="700">Macaroni And Cheese Pizza-700</option>
-            <option label="Beef pizza-500" value="500">Beef pizza-500</option>
-            <option label="veggie pizza-650" value="650">veggie pizza-650</option>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="auto" id="text-center">
+                        <div class="mourine" id="orders">
+                            <form class="text-center" id="text-center">
+                                <label>pizza Flavor</label><br>
+                                <select class="flavors" id="flavor" required><br>
+                        <option value="chicken">Chicken Pizza</option>
+                        <option  value="fruit">fruit Pizza</option>
+                        <option  value="beeef ">Beef pizza</option>
+                        <option  value="veggie ">veggie pizza</option>
+            
+                    </select><br>
+                                <br><label>pizza Size</label><br>
+                                <select class="sizes" id="size" required><br>
+                     <option value="small">small-300</option>
+                     <option  value="medium">Medium-600</option>
+                     <option value="large">Large-1600</option>
+                    </select><br>
+                                <br><label>pizza Crust</label><br>
+                                <select class="crust" id="crust" required><br>
+                        <option  value="crispy">crispy-150</option>
+                        <option  value="gluttenfree">glutenfree-200</option>
+                        <option  value="stuffed">Stuffed-345</option>
+                    </select><br>
+                                <br><label>pizza Topping</label><br>
+                                <select class="toppings" id="toppings" required><br>
+                     <option  value="Pepperoni">Pepperoni</option>
+                    <option  value="musshrooms">Mushrooms</option>
+                    <option  value="Onions">Onions</option>
+                    
+                </select><br>
+                                <br><label>Number of pizza</label><br>
+                                <input value="" required placeholder="number of pizza" id="quantity" type="number"></input><br>
+                                <div class="button">
+                                    <br><br><button type="submit" id="btn" label="">submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
 
-        </select><br>
-                <br><label>pizza Size</label><br>
-                <select class="sizes" id="size" required><br>
-         <option label="small-300" value="300">small-300</option>
-         <option label="Medium-600" value="600">Medium-600</option>
-         <option label="Large-1600" value="1600">Large-1600</option>
-        </select><br>
-                <br><label>pizza Crust</label><br>
-                <select class="crust" id="crust" required><br>
-            <option label="crispy-150" value="150">crispy-150</option>
-            <option label="glutenfree-200" value="200">glutenfree-200</option>
-            <option label="Stuffed Crust-345" value="345">Stuffed Crust-345</option>
-        </select><br>
-                <br><label>pizza Topping</label><br>
-                <select class="toppings" id="topping" required><br>
-         <option label="Pepperoni-100" value="100">Pepperoni-100</option>
-        <option label="Mushrooms-300" value="300">Mushrooms-300</option>
-        <option label="Onions-120" value="120">Onions-120</option>
-         <option label="Sausage-124" value="124">Sausage-124</option>
-        <option label="Green peppers-80" value="80">Green peppers-80</option>
-    </select><br>
-                <br><label>Number of pizza</label><br>
-                <input value="" required placeholder="number of pizza" id="quantity"></input><br>
-                <div class="button">
-                    <br><br><button type="submit" id="btn" label="">submit</button>
+
+
                 </div>
-            </form>
+                <div class="col-md-6">
+                    <div class="jumbotron">
+                        <div class="heading">
+                            <h3 order summary></h3>
+                        </div>
+                        <div id="no">
+                            <p>flavor: <span id="looks"></span></p>
+                            <p>pizza size: <span id="looksy"></span></p>
+                            <p>crust: <span id="look"></span></p>
+                            <p>toppings: <span id="loo"></span></p>
+                            <p>number of orders: <span id="lo"></span></p>
+                            <p>total: <span id="lobs"></span></p>
+                        </div>
+                        <div id="yes">
+                            <p>your order below will be delivered to <span id="respect"></span></p>
+                            <p>total including delivery : <span id="del"></span></p>
+
+
+                        </div>
+                    </div>
+                    <button type="submit" class="btn" id="lit"> home delivery</button>
+                    <div class="card" id="cards">
+                        <div class="card-title">
+                            <h3>delivery fee is 200ksh</h3>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="contact">contact</label>
+                                    <input type="number" class="form-control" id="contact" placeholder="enter your phone number">
+                                </div>
+                                <div class="form-group">
+                                    <label for="location">location</label>
+                                    <input type="text" class="form-control" id="place" placeholder="enter your location">
+                                </div>
+                                <button class="btn" type="submit" id="checkout">checkout</button>
+                            </form>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
-    </div>
+    </section>
+
+
     <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
