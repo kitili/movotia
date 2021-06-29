@@ -112,10 +112,7 @@ $(document).ready(function() {
 
         delivery = charge + 200;
 
-        $("span#respect").append(location);
-        $("span#del").append(delivery);
-        $("input#contact").val("");
-        $("input#location").val("");
-
+        alert(`hi ${contact} your order below will be delivered to ${location}`)
     });
+
 });
